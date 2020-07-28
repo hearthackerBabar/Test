@@ -3768,7 +3768,7 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			blackmafiax()
- elif lovehackerx =="11"
+ elif lovehackerx =="11":
 		os.system("clear")
 		print (logo37)
 		print("\033[1;93m01, ~to~~, 49")
