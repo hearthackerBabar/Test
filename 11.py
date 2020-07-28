@@ -3643,7 +3643,7 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			blackmafiax()
-	elif lovehackerx =="2"
+	elif lovehackerx =="2":
 		os.system("clear")
 		print("\033[1;93m555,786, 815, 315, 256, 401, 718, 917, 202, 701, 303, 703, 803, 999, 708")
 		try:
