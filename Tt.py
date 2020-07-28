@@ -165,7 +165,7 @@ def super():
 		print"\x1b[1;91mToken invalid"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		login()
+		pilih()
 	os.system('clear')
 	print logo
 	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m1.\x1b[1;95mClone From Friend List👬."
