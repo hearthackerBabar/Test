@@ -456,9 +456,6 @@ def login():
         print "\033[1;93m-•◈•-\033[1;91m> \033[1;93m2.\x1b[1;94m Black Mafia  WhatsApp Group   "
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;91m> \033[1;93m3.\x1b[1;91m Black Mafia  Youtube Chenal   "
-        time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Exit             "
-	pilih_login()
 
 def pilih_login():
 	peak = raw_input("\n\033[1;91mChoose an Option>>> \033[1;95m")
@@ -467,14 +464,9 @@ def pilih_login():
 		pilih_login()
         elif peak =="1":
 		blackmafiax()
-        elif peak =="2":
-		os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
-	        login()
         elif peak =="3":
 	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 	        login()
-	elif peak =="0":
-		keluar()
         else:
 		print"\033[1;91m[!] Wrong input"
 		keluar()
@@ -3639,9 +3631,7 @@ def action():
 		print '[!] Fill in correctly'
 		action()
 	elif lovehackerx =="1":
-                print (logo53)
 		os.system("clear")
-		print (logo27)
 		print("\033[1;93m175,165,191, 192, 193, 194, 195, 196, 197, 198, 199")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -3653,10 +3643,8 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			blackmafiax()
-	elif lovehackerx =="2":
-                print (logo53)
+	elif lovehackerx =="2"
 		os.system("clear")
-		print (logo28)
 		print("\033[1;93m555,786, 815, 315, 256, 401, 718, 917, 202, 701, 303, 703, 803, 999, 708")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -3669,7 +3657,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="3":
-                print (logo53)
 		os.system("clear")
 		print (logo29)
 		print("\033[1;93m715,785,765,725,745,735,737, 706, 748, 783, 739, 759, 790")
@@ -3684,7 +3671,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="4":
-                print (logo53)
 		os.system("clear")
 		print (logo30)
 		print("\033[1;93m905,975,755,855,954, 897, 967, 937, 700, 727, 965, 786, 874, 856, 566, 590, 527, 568, 578")
@@ -3699,7 +3685,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="5":
-                print (logo53)
 		os.system("clear")
 		print (logo31)
 		print("\033[1;93m127, 179, 117, 853, 318, 219, 834, 186, 479, 113")
@@ -3714,7 +3699,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="6":
-                print (logo53)
 		os.system("clear")
 		print (logo32)
 		print("\033[1;93m11, 12, 19, 16, 15, 13, 14, 18, 17")
@@ -3729,7 +3713,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="7":
-                print (logo53)
 		os.system("clear")
 		print (logo33)
 		print("\033[1;93m1, 2, 3, 4, 5, 6, 7, 8, 9")
@@ -3744,7 +3727,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="8":
-                print (logo53)
 		os.system("clear")
 		print (logo34)
 		print("\033[1;93m311,323,385,388, 390, 391, 371, 380, 368, 386, 384, 332, 344, 351, 328")
@@ -3759,7 +3741,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="9":
-                print (logo53)
 		os.system("clear")
 		print (logo35)
 		print("\033[1;93m655,755,60, 76, 73, 64, 69, 77, 65, 61, 75, 68")
@@ -3774,7 +3755,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="10":
-                print (logo53)
 		os.system("clear")
 		print (logo36)
 		print("\033[1;93m66, 69, 78, 79, 60, 72, 67, 53, 51")
@@ -3788,8 +3768,7 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			blackmafiax()
-        elif lovehackerx =="11":
-                print (logo53)
+        elif lovehackerx =="11"
 		os.system("clear")
 		print (logo37)
 		print("\033[1;93m01, ~to~~, 49")
@@ -3804,7 +3783,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
         elif lovehackerx =="12":
-                print (logo53)
 		os.system("clear")
 		print (logo38)
 		print("\033[1;93m81,83,85,84,89,")
@@ -3819,7 +3797,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
         elif lovehackerx =="13":
-                print (logo53)
 		os.system("clear")
 		print (logo39)
 		print("\033[1;93m(leave the first four digits and the last seven digits of any phone number in this country.Write the remaining digits here.91,92,93,94,95,96,97,98,99")
@@ -3834,7 +3811,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
         elif lovehackerx =="14":
-                print (logo53)
 		os.system("clear")
 		print (logo40)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.455")
@@ -3849,7 +3825,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="15":
-                print (logo53)
 		os.system("clear")
 		print (logo41)
 		print("\033[1;93m(leave the first one digits and the last seven digits of any phone number in this country.Write the remaining digits here.555,")
@@ -3864,7 +3839,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="16":
-                print (logo53)
 		os.system("clear")
 		print (logo42)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.1355,1555,1855,")
@@ -3879,7 +3853,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="17":
-                print (logo53)
 		os.system("clear")
 		print (logo43)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.2,3,4,5,6,7,8")
@@ -3894,7 +3867,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="18":
-                print (logo53)
 		os.system("clear")
 		print (logo44)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.65,70,73,74,76,77")
@@ -3909,7 +3881,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="19":
-                print (logo53)
 		os.system("clear")
 		print (logo45)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.151,152,153,155,157,159,160,162,179,163,174,163")
@@ -3924,7 +3895,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="20":
-                print (logo53)
 		os.system("clear")
 		print (logo46)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.11,12,13,14,15,16,17,18,19")
@@ -3939,7 +3909,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="21":
-                print (logo53)
 		os.system("clear")
 		print (logo47)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.71,72,73,74,75,76,77,78")
@@ -3954,7 +3923,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="22":
-                print (logo53)
 		os.system("clear")
 		print (logo48)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.55,54,53,52,50")
@@ -3969,7 +3937,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
 	elif lovehackerx =="23":
-                print (logo53)
 		os.system("clear")
 		print (logo49)
 		print("\033[1;93m(leave the first tree digits and the last seven digits of any phone number in this country.Write the remaining digits here.50,55,58,54,56")
@@ -3984,7 +3951,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
         elif lovehackerx =="24":
-                print (logo53)
 		os.system("clear")
 		print (logo50)
 		print("\033[1;93m(leave the first three digits and the last seven digits of any phone number in this country.Write the remaining digits here.50,51,52,53,54,55,56,57,58,")
@@ -3999,7 +3965,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
         elif lovehackerx =="25":
-                print (logo53)
 		os.system("clear")
 		print (logo51)
 		print("\033[1;93m(leave the first three digits and the last seven digits of any phone number in this country.Write the remaining digits here. 52,55")
@@ -4014,7 +3979,6 @@ def action():
 			raw_input("\n[ Back ]")
 			blackmafiax()
         elif lovehackerx =="26":
-                print (logo53)
 		os.system("clear")
 		print (logo52)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.990,915,901,933,938,902")
@@ -4140,4 +4104,4 @@ def action():
 	login()	
           
 if __name__ == '__main__':
-	login()
+login()
