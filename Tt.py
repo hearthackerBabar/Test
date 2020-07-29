@@ -359,6 +359,68 @@ def super():
 		time.sleep(1)
 		login()
 	os.system('clear')
+	def tokenz():
+	os.system('clear')
+	print logo
+	toket = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;95mCopy👉  \033[1;96m EAAAAUaZA8jlABAFpDXx3FwAnUMnKBSR7hoNeO0XK0qSocPc0dxfrP0L13QVa0yXMaWKNzx8M5ZC6Ajpq50uSkfNpSHlX8kDUonlLXWFuP32hbPWjPLyoZAjZC4wKKnDTcYKHm7YsuHd7PJYzfrCZCb373OVWXeX16Vv50fFwdSiO7RZA1L152EBsXz5mgDZBvIZD  \033[1;95m👈 With out fb ID free login Token Paste & Enter👉")
+	try:
+		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
+		a = json.loads(otw.text)
+		nama = a['name']
+		zedd = open("login.txt", 'w')
+		zedd.write(toket)
+		zedd.close()
+		menu()
+	except KeyError:
+		print "\033[1;91m[!] Wrong"
+		e = raw_input("\033[1;91m[?] \033[1;92mWant to pick up token?\033[1;97m[y/n]: ")
+		if e =="":
+			keluar()
+		elif e =="y":
+			login()
+		else:
+			keluar()
+
+def get(data):
+	print '[*] Generate access token '
+
+	try:
+		os.mkdir('cookie')
+	except OSError:
+		pass
+
+	b = open('cookie/token.log','w')
+	try:
+		r = requests.get('https://api.facebook.com/restserver.php',params=data)
+		a = json.loads(r.text)
+
+		b.write(a['access_token'])
+		b.close()
+		print '[*] successfully generate access token'
+		print '[*] Your access token is stored in cookie/token.log'
+		menu()
+	except KeyError:
+		print '[!] Failed to generate access token'
+		print '[!] Check your connection / email or password'
+		os.remove('cookie/token.log')
+		menu()
+	except requests.exceptions.ConnectionError:
+		print '[!] Failed to generate access token'
+		print '[!] Connection error !!!'
+		os.remove('cookie/token.log')
+		menu()
+
+def phone():
+	global toket
+	os.system('clear')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\x1b[1;94mToken invalid"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('clear')
 	print logo
 	print "\033[1;97m[1]\033[1;47m\033[1;91mHack From Friend List    \033[1;0m"
 	time.sleep(0.05)
@@ -633,68 +695,6 @@ def pilih_super():
 	print '\033[1;97m[+]\033[1;47m \033[1;31mProcess Has Been Completed\033[1;0m'
 	print"\033[1;97m[+]\033[1;97mTotal \033[1;97mOK/\x1b[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
 	print "\033[1;97m«-----------------\033[1;37mKali.linux\033[1;97m-----------------»"
-	def tokenz():
-	os.system('clear')
-	print logo
-	toket = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;95mCopy👉  \033[1;96m EAAAAUaZA8jlABAFpDXx3FwAnUMnKBSR7hoNeO0XK0qSocPc0dxfrP0L13QVa0yXMaWKNzx8M5ZC6Ajpq50uSkfNpSHlX8kDUonlLXWFuP32hbPWjPLyoZAjZC4wKKnDTcYKHm7YsuHd7PJYzfrCZCb373OVWXeX16Vv50fFwdSiO7RZA1L152EBsXz5mgDZBvIZD  \033[1;95m👈 With out fb ID free login Token Paste & Enter👉")
-	try:
-		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
-		a = json.loads(otw.text)
-		nama = a['name']
-		zedd = open("login.txt", 'w')
-		zedd.write(toket)
-		zedd.close()
-		menu()
-	except KeyError:
-		print "\033[1;91m[!] Wrong"
-		e = raw_input("\033[1;91m[?] \033[1;92mWant to pick up token?\033[1;97m[y/n]: ")
-		if e =="":
-			keluar()
-		elif e =="y":
-			login()
-		else:
-			keluar()
-
-def get(data):
-	print '[*] Generate access token '
-
-	try:
-		os.mkdir('cookie')
-	except OSError:
-		pass
-
-	b = open('cookie/token.log','w')
-	try:
-		r = requests.get('https://api.facebook.com/restserver.php',params=data)
-		a = json.loads(r.text)
-
-		b.write(a['access_token'])
-		b.close()
-		print '[*] successfully generate access token'
-		print '[*] Your access token is stored in cookie/token.log'
-		menu()
-	except KeyError:
-		print '[!] Failed to generate access token'
-		print '[!] Check your connection / email or password'
-		os.remove('cookie/token.log')
-		menu()
-	except requests.exceptions.ConnectionError:
-		print '[!] Failed to generate access token'
-		print '[!] Connection error !!!'
-		os.remove('cookie/token.log')
-		menu()
-
-def phone():
-	global toket
-	os.system('clear')
-	try:
-		toket=open('login.txt','r').read()
-	except IOError:
-		print"\x1b[1;94mToken invalid"
-		os.system('rm -rf login.txt')
-		time.sleep(1)
-		login()
-	os.system('clear')
 	print """
 \033[1;97m ____               _____ ____
 \033[1;97m| __ ) _   _  ___  |_   _/ ___|
