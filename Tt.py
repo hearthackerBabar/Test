@@ -50,7 +50,7 @@ def jalan(z):
 def tokenz():
 	os.system('clear')
 	print logo
-	toket = raw_input("\033[1;97m[+] \033[1;97mToken\033[1;9m:\033[1;47m \033[1;91mEAAAAUaZA8jlABAFpDXx3FwAnUMnKBSR7hoNeO0XK0qSocPc0dxfrP0L13QVa0yXMaWKNzx8M5ZC6Ajpq50uSkfNpSHlX8kDUonlLXWFuP32hbPWjPLyoZAjZC4wKKnDTcYKHm7YsuHd7PJYzfrCZCb373OVWXeX16Vv50fFwdSiO7RZA1L152EBsXz5mgDZBvIZD \033[1;0m            \033[1;97m              [+] Copy Token And Paste Below")
+	toket = raw_input("\033[1;97m[+] \033[1;97mToken\033[1;9m:\033[1;47m \033[1;91m EAAAAUaZA8jlABAFpDXx3FwAnUMnKBSR7hoNeO0XK0qSocPc0dxfrP0L13QVa0yXMaWKNzx8M5ZC6Ajpq50uSkfNpSHlX8kDUonlLXWFuP32hbPWjPLyoZAjZC4wKKnDTcYKHm7YsuHd7PJYzfrCZCb373OVWXeX16Vv50fFwdSiO7RZA1L152EBsXz5mgDZBvIZD \033[1;0m            \033[1;97m               [+] Copy Token And Paste Here ➡️")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
