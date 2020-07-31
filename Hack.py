@@ -58,27 +58,21 @@ def cb():
     os.system('clear')
 ##### LOGO #####
 logo='''
+88888888ba   888      88
+88      "8b  8888     88
+88      ,8P  88 88    88
+88_____-8P'  88  88   88
+88------8b,  88   88  88
+88      `8b  88    88 88
+88      a8P  88     8888
+88888888P"   88      888
 
-\033[1;93m██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
-\033[1;93m██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║░██╔╝
-\033[1;93m██████╦╝██║░░░░░███████║██║░░╚═╝█████═╝░
-\033[1;93m██╔══██╗██║░░░░░██╔══██║██║░░██╗██╔═██╗░
-\033[1;93m██████╦╝███████╗██║░░██║╚█████╔╝██║░╚██╗
-\033[1;93m╚═════╝░╚══════╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
-
-\033[1;93m░█████╗░██████╗░░█████╗░██╗░░██╗
-\033[1;93m██╔══██╗██╔══██╗██╔══██╗██║░░██║
-\033[1;93m███████║██████╔╝██║░░╚═╝███████║
-\033[1;93m██╔══██║██╔══██╗██║░░██╗██╔══██║
-\033[1;93m██║░░██║██║░░██║╚█████╔╝██║░░██║
-\033[1;93m╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
- ___________________________________________________
-|                                                   |
-|⚡\033[1;91m Auther   : Babar Ali     ⚡           |
-|⚡\033[1;91m NickName : Heart Hacker  ⚡           |
-|⚡\033[1;91m YouTube  : Pak Anonymous ⚡           |
-|⚡\033[1;91m Phone No : +923000223253 ⚡           |
-|___________________________________________________|
+--------------------------------------------------
+➣ Auther   : Binyamin
+➣ GitHub   : https://github.com/binyamin-binni
+➣ YouTube  : Trick Proof
+➣ Blogspot : https://trickproof.blogspot.com
+--------------------------------------------------
                                 '''
 
 def tik():
@@ -143,7 +137,7 @@ def menu():
 		print"[!] Token invalid"
 		os.system('rm -rf ....')
 		time.sleep(1)
-		os.sytem('python2 Hack.py')
+		os.sytem('python2 bn.py')
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
@@ -164,10 +158,10 @@ def menu():
 	print "[✓] ID   : "+id+"              "
 	print 50*"-"
 	print
-	print "[1] Pakistani Accounts"
-	print "[2] All Country Cloning"
-	print "[3] Update BlackArch Tool"
-	print "[4] Contact Me On Facebook"
+	print "[1] PAKISTAN Menu"
+	print "[2] Other Country Menu"
+	print "[3] Update BN Tool"
+	print "[4] Follow Me On Facebook"
 	print "[5] Log Out"
 	print "[0] Exit            "
 	print 50*"-"
@@ -203,11 +197,11 @@ def action():
 	    psb('✓')
 	    psb('✓')
 	    psb('✓')
-	    psb('Congratulations BlackArch Tool Has Been Updated Successfully')
+	    psb('Congratulations BN Tool Has Been Updated Successfully')
 	    time.sleep(2)
-	    os.system("cd $HOME/BlackArch && python2 .README.md")
+	    os.system("cd $HOME/bn && python2 .README.md")
 	elif acb =="4":
-	    os.system("xdg-open https://www.facebook.com/Babar.ali7500")
+	    os.system("xdg-open https://www.facebook.com/100002059014174/posts/2677733205638620/?substory_index=0&app=fbl")
 	    time.sleep(1)
 	    menu()
 	elif acb =="5":
@@ -231,7 +225,7 @@ def pak_menu():
 		print"[!] Token invalid"
 		os.system('rm -rf ....')
 		time.sleep(1)
-		os.sytem('python2 Hack.py')
+		os.sytem('python2 bn.py')
 	os.system('clear')
 	print logo
 	print "[1] Crack From Friend List"
@@ -278,7 +272,7 @@ def pak_action():
 		os.system('clear')
 		print logo
 		try:
-			idlist = raw_input('[+] Enter File Path  : ')
+			idlist = raw_input('[✓] Enter File Path  : ')
 			for line in open(idlist,'r').readlines():
 				id.append(line.strip())
 		except IOError:
@@ -439,9 +433,9 @@ def other_menu():
 		os.sytem('python2 bn.py')
 	os.system('clear')
 	print logo
-	print "[1] Hack From Friend List"
-	print "[2] Hack From  Public Account"
-	print "[3] Hack From File"
+	print "[1] Crack From Friend List"
+	print "[2] Crack From Any Public ID"
+	print "[3] Crack From File"
 	print "[0] Back"
 	print 50*"-"
 	other_action()
