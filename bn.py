@@ -93,7 +93,7 @@ cpb = []
 oks = []
 id = []
 
-def ym():
+def login():
     try:
         cb()
         os.mkdir("../omi/.....")
