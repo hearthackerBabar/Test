@@ -152,7 +152,7 @@ def pilih_login():
 	elif peak =="1":
 		login1()
         elif peak =="2":
-	        tokenz()
+	        menu()
         elif peak =="3":
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
