@@ -19,30 +19,7 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
 
-def keluar():
-	print "\x1b[1;91mExit"
-	os.sys.exit()
-
-
-def acak(b):
-    w = 'ahtdzjc'
-    d = ''
-    for i in x:
-        d += '!'+w[random.randint(0,len(w)-1)]+i
-    return cetak(d)
-
-
-def cetak(b):
-    w = 'ahtdzjc'
-    for i in w:
-        j = w.index(i)
-        x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
-    x += '\033[0m'
-    x = x.replace('!0','\033[0m')
-    sys.stdout.write(x+'\n')
-
-
-def tokenz():
+def menu():
 	os.system('clear')
 	try:
 		toket=open('....','r').read()
@@ -51,7 +28,7 @@ def tokenz():
 		print"[!] Token invalid"
 		os.system('rm -rf ....')
 		time.sleep(1)
-		os.sytem('python2 Hack.py')
+		os.sytem('python2 bn.py')
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
@@ -59,7 +36,14 @@ def tokenz():
 		id = a['id']
 	except KeyError:
 		os.system('clear')
-		print"[!] It seems that your account has a
+		print"[!] It seems that your account has a checkpoint"
+		os.system('rm -rf ....')
+		time.sleep(1)
+		os.sytem('python2 bn.py')
+	except requests.exceptions.ConnectionError:
+		print"[!] There is no internet connection"
+		exb()
+	os.system("clear")
 
 #Dev:Babar_Ali
 ##### LOGO #####
