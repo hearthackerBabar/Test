@@ -16,8 +16,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent','Mozilla/5.0 (Linux; Android 9; SM-A505FN Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/84.0.4147.111 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/275.0.0.20.119;]')]
-
+br.addheaders = [('User-Agent','SupportsFresco=1 modular=3 Dalvik/2.1.0 (Linux; U; Android 8.1.0; W-K200 Build/O11019) [FBAN/EMA;UNITY_PACKAGE/1549;FBBV/234444154;FBAV/209.0.0.5.119;FBDV/W-K200;FBLC/vi_VN;FBOP/20;FBNG/3G;FBCQ/UNKNOWN;FBMNT/METERED] Cookie vO4n********************')]
 
 def keluar():
 	print "\x1b[1;91mExit"
