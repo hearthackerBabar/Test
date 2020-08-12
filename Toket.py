@@ -47,6 +47,34 @@ def jalan(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.1)
+def tokenz():
+	os.system('clear')
+	try:
+		toket=open('....','r').read()
+	except IOError:
+		os.system('clear')
+		print"[!] Token invalid"
+		os.system('rm -rf ....')
+		time.sleep(1)
+		os.sytem('python2 bn.py')
+	try:
+		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
+		a = json.loads(otw.text)
+		nama = a['name']
+		id = a['id']
+	except KeyError:
+		os.system('clear')
+		print"[!] It seems that your account has a checkpoint"
+		os.system('rm -rf ....')
+		time.sleep(1)
+		os.sytem('python2 bn.py')
+	except requests.exceptions.ConnectionError:
+		print"[!] There is no internet connection"
+		exb()
+	os.system("clear")
+	print logo
+	print "[✓] Name : "+nama+"               "
+	print "[✓] ID   : "+id+"                 "
 
 #Dev:Babar_Ali
 ##### LOGO #####
