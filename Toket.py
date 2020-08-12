@@ -151,7 +151,7 @@ def login():
     print "\033[1;97m[0]\033[1;47m\033[1;31mExit                             \033[1;0m"
     time.sleep(0.05)
 
-def pilih_login()
+def pilih_login():
        peak = raw_input("\n\033[1;97m[+] \033[0;31mSelect Option: \033[1;91m")
        if peak =="":
 		print "\x1b[1;91mFill in correctly"
