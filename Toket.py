@@ -113,10 +113,10 @@ def phone():
 #Dev:Babar_Ali
 ##### LOGO #####
 logo = """
-\033[1;95m               |-------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-----|
-\033[1;95m               |               Pak Anonymous               |
-\033[1;95m               |This Tool is Only for Pakistani FB Accounts|
-\033[1;95m               |------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+------|
+\033[1;95m          |-------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-----|
+\033[1;95m          |               Pak Anonymous               |
+\033[1;95m          |This Tool is Only for Pakistani FB Accounts|
+\033[1;95m          |------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+------|
 
 \033[1;97m           [⚡\033[1;97mAuthor Name: Babar Ali     ⚡\033[1;97m]
 \033[1;97m           [⚡\033[1;97mPhone Numbr: +923000223253 ⚡\033[1;97m]
@@ -187,13 +187,13 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;91m[1]\x1b[1;95mLogin With Facebook Account  "
+	print "\033[1;97m[1]\x1b[1;96mLogin With Facebook Account  "
         time.sleep(0.05)
-        print "\033[1;91m[2]\x1b[1;95mLogin  With Token"
+        print "\033[1;97m[2]\x1b[1;96mLogin  With Token"
         time.sleep(0.05)
-        print "\033[1;91m[3]\x1b[1;95mDownload Token App"
+        print "\033[1;97m[3]\x1b[1;96mDownload Token App"
         time.sleep(0.05)
-	print "\033[1;91m[0]\033[1;94mExit             "
+	print "\033[1;97m[0]\033[1;96mExit             "
 	pilih_login()
 
 def pilih_login():
@@ -308,12 +308,12 @@ def menu():
 	print "  \033[1;92m\033[1;93m⚡⚡Logged in User Info\033[1;92m⚡⚡"
 	print "	   \033[1;91m Name\033[1;93m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
-	print "\033[1;97m[1]\x1b[1;93mStart Hacking"
-	print "\033[1;97m[2]\x1b[1;93mID Not Found Problem"
-	print "\033[1;97m[3]\x1b[1;93mJoin Pak Anonymous Whatsapp Group"
-	print "\033[1;97m[4]\x1b[1;93mContact With Pak Anonymous Owner On Facebook"
-	print "\033[1;97m[5]\x1b[1;93mSubscribe Pak Anonymous Youtube Channel " 
-	print "\033[1;97m[0]\033[1;93mExit            "
+	print "\033[1;97m[1]\x1b[1;96mStart Hacking"
+	print "\033[1;97m[2]\x1b[1;96mID Not Found Problem"
+	print "\033[1;97m[3]\x1b[1;96mJoin Pak Anonymous Whatsapp Group"
+	print "\033[1;97m[4]\x1b[1;96mContact With Pak Anonymous Owner On Facebook"
+	print "\033[1;97m[5]\x1b[1;96mSubscribe Pak Anonymous Youtube Channel " 
+	print "\033[1;97m[0]\033[1;96mExit            "
 	pilih()
 
 
@@ -383,9 +383,9 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m[1]\x1b[1;93mHack From Friend List"
-	print "\033[1;97m[2]\x1b[1;93mHack From Public Accounts"
-	print "\033[1;97m[0]\033[1;95mBack"
+	print "\033[1;97m[1]\x1b[1;96mHack From Friend List"
+	print "\033[1;97m[2]\x1b[1;96mHack From Public Accounts"
+	print "\033[1;97m[0]\033[1;96mBack"
 	pilih_super()
 
 def pilih_super():
