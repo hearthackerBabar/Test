@@ -168,14 +168,18 @@ def pilih_login():
 
 def login1():
 	os.system('clear')
-		print logo
-		jalan(' \033[1;91mWarning: \033[1;94mDo Not Use Your Personal Account' )
-		jalan(' \033[1;91m   Note: \033[1;94mUse a New Account To Login' )             
-		print "\033[1;92m╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬\033[1;91mBlack Tool\033[1;92m╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬"
-		print('	   \033[1;97m✔✔✔✔✔✔✔LOGIN WITH FACEBOOK✔✔✔✔✔✔✔' )
+	try:
+		toket = open('login.txt','r')
+		menu() 
+	except (KeyError,IOError):
+		os.system('clear')
+                time.sleep(0.05)
+		print logo                
+		print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
+		print('\033[1;97m[+]\033[1;47m\033[1;31mLOGIN WITH FACEBOOK\x1b[1;97m \033[1;0m' )
 		print('	' )
-		id = raw_input('\033[1;96m[+] \x1b[1;92mID/Email\x1b[1;95m: \x1b[1;93m')
-		pwd = raw_input('\033[1;96m[+] \x1b[1;91mPassword\x1b[1;96m: \x1b[1;93m')
+		id = raw_input('\033[1;97m[!] \x1b[1;97mNumber/Email\x1b[1;97m: \x1b[1;97m')
+		pwd = raw_input('\033[1;97m[+] \x1b[1;97mPassword\x1b[1;97m    : \x1b[1;97m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
