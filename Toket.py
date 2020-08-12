@@ -113,10 +113,10 @@ def phone():
 #Dev:Babar_Ali
 ##### LOGO #####
 logo = """
-\033[1;93m|-------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-----|
-\033[1;93m|               Pak Anonymous               |
-\033[1;93m|This Tool is Only for Pakistani FB Accounts|
-\033[1;93m|------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+------|
+\033[1;95m               |-------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-----|
+\033[1;95m               |               Pak Anonymous               |
+\033[1;95m               |This Tool is Only for Pakistani FB Accounts|
+\033[1;95m               |------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+------|
 
 \033[1;97m           [⚡\033[1;97mAuthor Name: Babar Ali     ⚡\033[1;97m]
 \033[1;97m           [⚡\033[1;97mPhone Numbr: +923000223253 ⚡\033[1;97m]
