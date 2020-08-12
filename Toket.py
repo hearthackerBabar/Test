@@ -153,16 +153,16 @@ def login():
 
 def pilih_login()
        peak = raw_input("\n\033[1;97m[+] \033[0;31mSelect Option: \033[1;91m")
-	if peak =="":
+       if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
-	elif peak =="1":
+       elif peak =="1":
 		login1()
-        elif peak =="2":
+       elif peak =="2":
 	        tokenz()
-	elif peak =="0":
+       elif peak =="0":
 		keluar()
-        else:
+       else:
 		print"\033[1;91m[!] Wrong input"
 		keluar()
 
