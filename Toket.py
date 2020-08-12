@@ -144,8 +144,8 @@ print  """
  """
 print "\033[1;92m╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬\033[1;91mLogin Black Tool\033[1;92m╬╬╬╬╬╬╬╬╬╬╬╬╬╬"
 
-CorrectUsername = "BlackFB"
-CorrectPassword = "HeartHacker"
+CorrectUsername = "Pak"
+CorrectPassword = "Anonymous"
 
 loop = 'true'
 while (loop == 'true'):
