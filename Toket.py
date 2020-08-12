@@ -143,13 +143,13 @@ def lisensi():
 ####login#########
 def login():
     os.system('clear')
-    	print logo
-    	print "\033[1;97m[1]\033[1;47m\033[1;31mLogin With Facebook              \033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;97m[2]\033[1;47m\033[1;31mLogin With Token                 \033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;97m[0]\033[1;47m\033[1;31mExit                             \033[1;0m"
-  	time.sleep(0.05)
+    print logo
+    print "\033[1;97m[1]\033[1;47m\033[1;31mLogin With Facebook              \033[1;0m"
+    time.sleep(0.05)
+    print "\033[1;97m[2]\033[1;47m\033[1;31mLogin With Token                 \033[1;0m"
+    time.sleep(0.05)
+    print "\033[1;97m[0]\033[1;47m\033[1;31mExit                             \033[1;0m"
+    time.sleep(0.05)
 
 def pilih_login()
        peak = raw_input("\n\033[1;97m[+] \033[0;31mSelect Option: \033[1;91m")
