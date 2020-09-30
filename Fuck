@@ -193,17 +193,17 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;97m[01]\033[1;34mLogin \033[1;33mWith \033[1;31mFacebook              
+	print "\033[1;97m[1]\033[1;34mLogin \033[1;33mWith \033[1;31mFacebook              
         time.sleep(0.05)
-        print "\033[1;97m[02]\033[1;31mLogin \033[1;35mWith \033[1;32mToken                 
+        print "\033[1;97m[2]\033[1;31mLogin \033[1;35mWith \033[1;32mToken                 
         time.sleep(0.05)
-        print "\033[1;97m[03]\033[1;35mDownload \033[1;36mToken \033[32mApp               
+        print "\033[1;97m[3]\033[1;35mDownload \033[1;36mToken \033[32mApp               
         time.sleep(0.05)
-        print "\033[1;97m[04]\033[1;32mSubscribe \033[1;33mYouTube \033[1;35mChannel        
+        print "\033[1;97m[4]\033[1;32mSubscribe \033[1;33mYouTube \033[1;35mChannel        
         time.sleep(0.05)
-	print "\033[1;97m[05]\033[1;31mJoin WP group For Help           
+	print "\033[1;97m[5]\033[1;31mJoin WP group For Help           
         time.sleep(0.05)
-        print "\033[1;97m[00]\033[1;31mEx\033[1;33mit                             
+        print "\033[1;97m[0]\033[1;31mEx\033[1;33mit                             
 	time.sleep(0.05)
 	pilih_login()
 
