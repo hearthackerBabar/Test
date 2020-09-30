@@ -193,12 +193,12 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "echo [1]Login With Facebook | lolcat -a  -d 30     "
-        print "echo [2]Login With Token | lolcat -a  -d 30"
-        print "echo [3]Download Token App | lolcat -a  -d 30 "
-        print "echo [4]Subscribe YouTube Channel | lolcat -a  -d 30     "
-	print "echo [5]Join WP Group For Help | lolcat -a  -d 30 "
-        print "echo [0]Exit | lolcat -a  -d 30    "
+	print "[1]Login With Facebook | lolcat -a  -d 30"
+        print "[2]Login With Token | lolcat -a  -d 30"
+        print "[3]Download Token App | lolcat -a  -d 30"
+        print "[4]Subscribe YouTube Channel | lolcat -a  -d 30"
+	print "[5]Join WP Group For Help | lolcat -a  -d 30"
+        print "[0]Exit | lolcat -a  -d 30"
 	pilih_login()
 
 def pilih_login():
