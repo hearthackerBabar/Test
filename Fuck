@@ -198,6 +198,8 @@ def login():
         time.sleep(0.05)
         print "\033[1;97m[2]\033[1;32mLogin With Token"
         time.sleep(0.05)
+        print "\033[1;97m[6]\033[1;32mTarget Hacking"
+        time.sleep(0.05)
         print "\033[1;97m[3]\033[1;33mDownload Token App "
         time.sleep(0.05)
         print "\033[1;97m[4]\033[1;34mSubscribe YouTube Channel     "
@@ -220,8 +222,11 @@ def pilih_login():
         elif peak =="3":
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
+                elif peak =="3":
+                os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
+	        login()
         elif peak =="4":
-	        os.system('xdg-open https://www.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
+	        os.system('xdg-git clone https://github.com/hearthackerBabar/Target')
 	        login()
         elif peak =="5":
 	        os.system('xdg-open https://chat.whatsapp.com/FlzjJ1wklTo3EvKtkSfwRZ')
