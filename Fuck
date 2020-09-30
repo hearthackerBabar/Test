@@ -170,9 +170,9 @@ CorrectPassword = "Linux"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;91m[+] \033[1;93m \x1b[1;91mTool Username \x1b[1;91m: \x1b[1;97m")
+    username = raw_input("\033[1;91m[+] \033[1;93m \x1b[1;94mTool Username \x1b[1;91m: \x1b[1;97m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;91m[+] \033[1;93m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;97m")
+    	password = raw_input("\033[1;91m[+] \033[1;93m \x1b[1;94mTool Password \x1b[1;91m: \x1b[1;97m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:Babar_Ali
 	    time.sleep(2)
@@ -193,17 +193,17 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;97m[01]\033[1;32mLogin \033[1;31mWith \033[1;33mFacebook          "
+	print "\033[1;97m[1]\033[1;31mLogin With Facebook          "
         time.sleep(0.05)
-        print "\033[1;97m[02]\033[1;36mLogin \033[1;34mWith \033[1;31mToken"
+        print "\033[1;97m[2]\033[1;32mLogin With Token"
         time.sleep(0.05)
-        print "\033[1;97m[03]\033[1;32mDownload \033[1;33mToken \033[1;31mApp "
+        print "\033[1;97m[3]\033[1;33mDownload Token App "
         time.sleep(0.05)
-        print "\033[1;97m[04]\033[1;31mSubscribe \033[1;32mYouTube \033[1;33mChannel     "
+        print "\033[1;97m[4]\033[1;34mSubscribe YouTube Channel     "
         time.sleep(0.05)
-	print "\033[1;97m[05]\033[1;34mJoin \033[1;35mWP \033[1;36mgroup \033[1;31mFor \033[1;32mHelp "
+	print "\033[1;97m[5]\033[1;35mJoin WP Group For Help "
         time.sleep(0.05)
-        print "\033[1;97m[00]\033[1;33mEx\033[1;34mit    "
+        print "\033[1;97m[0]\033[1;36mExit    "
 	time.sleep(0.05)
 	pilih_login()
 
@@ -240,7 +240,7 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo                
-		print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
+		print "\033[1;97m•-----------------\033[1;37mParot.Linux\033[1;97m-----------------•"
 		print('\033[1;97m[+]\033[1;47m\033[1;31mLOGIN WITH FACEBOOK\x1b[1;97m \033[1;0m' )
 		print('	' )
 		id = raw_input('\033[1;97m[!] \x1b[1;97mNumber/Email\x1b[1;97m: \x1b[1;97m')
@@ -324,7 +324,7 @@ def menu():
 	time.sleep(0.05)
 	print "\033[1;37m[•]\033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
 	time.sleep(0.05)
-	print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
+	print "\033[1;97m•-----------------\033[1;37mParot.Linux\033[1;97m-----------------•"
 	print "\033[1;97m[1]\033[1;47m\033[1;31mStart Hacking                             \033[1;0m"
 	time.sleep(0.05)
 	print "\033[1;97m[2]\033[1;47m\033[1;31mID Not Found Problem                      \033[1;0m"
@@ -435,7 +435,7 @@ def pilih_super():
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
-		print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
+		print "\033[1;97m•-----------------\033[1;37mParot.Linux\033[1;97m-----------------•"
 		print logo
 		jalan('\033[1;97m[+]\033[1;91mGetting Accounts\033[1;97m:-:')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
@@ -444,7 +444,7 @@ def pilih_super():
 			id.append(s['id'])
 	elif peak =="2":
 		os.system('clear')
-		print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
+		print "\033[1;97m•-----------------\033[1;37mParot.Linux\033[1;97m-----------------•"
 		print logo
 		idt = raw_input("\033[1;97m[+]\033[1;91mEnter ID\033[1;97m: \033[1;97m")
 		try:
@@ -471,7 +471,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;97m[+]\033[1;31mHacking Has Been Started\033[1;97m"+o),;sys.stdout.flush();time.sleep(0.05)
 	print "\n\033[1;97m[+]\x1b[1;31mStop Process Press CTRL+Z"
-	print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
+	print "\033[1;97m•-----------------\033[1;37mParot.Linux\033[1;97m-----------------•"
  	
 			
 	def main(arg):
@@ -689,10 +689,10 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 #Dev:Babar_Ali
-        print "\033[1;97m•-----------------\033[1;37mKali.linux\033[1;97m-----------------•"
+        print "\033[1;97m•-----------------\033[1;37mParot.Linux\033[1;97m-----------------•"
 	print '\033[1;97m[+]\033[1;47m \033[1;31mProcess Has Been Completed\033[1;0m'
 	print"\033[1;97m[+]\033[1;97mTotal \033[1;97mOK/\x1b[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
-	print "\033[1;97m«-----------------\033[1;37mKali.linux\033[1;97m-----------------»"
+	print "\033[1;97m«-----------------\033[1;37mParot.Linux\033[1;97m-----------------»"
 	print """
 \033[1;97m ____               _____ ____
 \033[1;97m| __ ) _   _  ___  |_   _/ ___|
@@ -701,7 +701,7 @@ def pilih_super():
 \033[1;97m|____/ \__, |\___|   |_| \____|
 \033[1;97m       |___/
 """
-	print "\033[1;97m«-----------------\033[1;37mKali.linux\033[1;97m-----------------»"
+	print "\033[1;97m«-----------------\033[1;37mParot.Linux\033[1;97m-----------------»"
 	raw_input("\n\033[1;97m[+]\033[1;97mBack")
 	menu()
 
